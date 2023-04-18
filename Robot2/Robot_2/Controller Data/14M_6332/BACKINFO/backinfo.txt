@@ -1,0 +1,39 @@
+>>SYSTEM_ID:
+VIRTUAL_USE
+
+>>PRODUCTS_ID:
+RobotWare Version: 5.16.0005.00
+
+  RW Control module key
+  RobotWare OS and English
+  748-1 DeviceNet Lean
+  616-1 PC Interface
+  RW Drive module 1 key
+  ABB standard manipulator
+  IRB 140 Type C
+  140-6/0.8
+  Drive System 09 120/140/1400/260
+  No additional drive
+
+>>ROBOT_TYPE:
+140-6/0.8
+
+>>HOME:
+All public files and directories
+
+>>SYSPAR:
+SYS.cfg
+PROC.cfg
+EIO.cfg
+SIO.cfg
+MOC.cfg
+MMC.cfg
+
+
+>>TASK1: (T_ROB1,primera prueba,)
+SYSMOD\user.sys @ user.sys
+PROGMOD\Module1.mod @ module1.mod
+PROGMOD\CalibData.mod @ calibdata.mod
+
+
+>>EOF:
